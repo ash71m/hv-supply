@@ -1,4 +1,21 @@
 # HV Supply Board Code
+"""
+List of Supported Commands 
+
+*IDN: Identify Board
+ON: Power on board
+OFF: Power off board
+STATUS?: Check if board is on or off 
+VREAD: read voltage
+IREAD: read current 
+VSET[N]: set the voltage to N volts
+TRACKV: monitor voltage for 6 seconds
+TRACKI: monitor current for 6 seconds
+TRACK: monitor current and voltage (as a tuple) for 6 seconds
+
+"""
+
+
 # importing modules
 import time
 import sys
