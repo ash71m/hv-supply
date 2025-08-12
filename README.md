@@ -1,7 +1,8 @@
 # High Voltage Supply Board Code 
 This repository includes all the code needed to program and test the high voltage supply board that provides up to 80 V in order to operate SiPMs. The board can be controlled with the on-board RP2040 chip or with an external microcontroller through UART communication.
 
-main_v3 is in progress. voltage setting is functional. voltage reading is not fully functional.
+When using the V01 board, use main.py.  You will need to install this driver on to the board: https://github.com/robert-hh/ads1x15
+When using the V0.3  board, use main_v3.py and install the provided drivers onto the board. main_v3.py is still in progress. Voltage setting is functional; voltage reading is not fully functional.
 
 
 ## Features
@@ -10,8 +11,7 @@ main_v3 is in progress. voltage setting is functional. voltage reading is not fu
   - Voltage Setting Accuracy: 0.01 V
   - I2C connection between internal components
   - Supports UART communication with external microcontroller
-
-
+    
 ## Instructions
 
 ### Native Control
