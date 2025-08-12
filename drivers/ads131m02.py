@@ -2,6 +2,7 @@ from machine import Pin, SPI
 import time
 """
 unfinished MicroPython driver for ADS131M02. read_adc is still in progress; reading and writing to registers is functional
+install the ads131m02 and ad5693r drivers onto the board before running
 """
 class ADS131M02:
     # commands
@@ -206,4 +207,5 @@ class ADS131M02:
         ch1 = -((~raw1 & 0x00FFFFFF) + 1) if raw1 > 0x7FFFFF else raw1
 
         self.cs_high()
+
         return status, ch0, ch1
