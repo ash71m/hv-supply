@@ -1,6 +1,8 @@
 # High Voltage Supply Board Code 
 This repository includes all the code needed to program and test the high voltage supply board that provides up to 80 V in order to operate SiPMs. The board can be controlled with the on-board RP2040 chip or with an external microcontroller through UART communication.
 
+main_v3 is in progress. voltage setting is functional. voltage reading is not fully functional.
+
 
 ## Features
   - Input: 5 V at 200 mA
