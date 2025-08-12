@@ -25,7 +25,7 @@ When using the V0.3  board, use main_v3.py and install the provided drivers onto
     - Thonny is the preferred IDE for this project but any MicroPython IDE will work
 
 3. **Place main.py into the RP2040-Zero**
-    - Using the Thonny interface, open and save the main.py file onto the board. When you click the run button, you will be able to type commands into the command line. See __ for list of commands.
+    - Using the Thonny interface, open and save the main.py file onto the board. When you click the run button, you will be able to type commands into the command line. See main.py for list of commands.
     - Make note of the name of the serial port associated with the board in THonny under Tools > Options > Interpreter (i.e. COM3)
 
 4. **Run the GUI**
